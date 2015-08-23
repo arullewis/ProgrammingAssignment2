@@ -2,8 +2,14 @@
 ## These functions will help cache inverse of a matrix for future reference.
 
 
-## makeCacheMatrix function creates a special "matrix" object that
-## can cache its inverse.
+## makeCacheMatrix function creates a special object that
+## can cache a matrix and its inverse. This method returns cached object
+
+## Instructions for use
+## Matrix should be passed as an argument
+## z<-makeCacheMatrix(x)
+## To get the matrix data back use the get function. For eg., z$get()
+## To set the matrix data - use "set". For eg., z$set()
 
 makeCacheMatrix <- function(x = matrix()) {
         
