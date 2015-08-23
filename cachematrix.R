@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## first argument will be the vector
 ## second argument obj will be cached special chached object
 
-## instructions for execution of this function
+## Instructions for execution of this function
 ## z<-makeCacheMatrix(a)
 ## cacheSolve(a, z)
 
